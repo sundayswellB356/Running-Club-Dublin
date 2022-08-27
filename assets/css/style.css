@@ -19,3 +19,8 @@ body{
         letter-spacing:4px;
         color:#252525;
         }
+
+        #logo{
+            float:left;
+            font-size:280%;
+            }
