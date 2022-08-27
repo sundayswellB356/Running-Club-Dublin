@@ -14,17 +14,16 @@ body{
     }
 
         h1,h2{
-        font-family:Oswald,sans-serif;
-        text-transform:uppercase;
-        letter-spacing:4px;
-        color:#252525;
+            font-family:Oswald,sans-serif;
+            text-transform:uppercase;
+            letter-spacing:4px;
+            color:#252525;
         }
 
-         #logo{
-        float:left;
-        font-size:280%;
-        margin-left:30px;
-         }
+        logo{
+            float:left;
+            font-size:280%;
+            }
 
         #menu{
         font-size:110%;
@@ -98,8 +97,8 @@ body{
              padding-left:10px;
              background-color: rgba(241,109,107,.7);
                             
-             bottom:30px;
-            right:150px;
+                 bottom:30px;
+                right:150px;
 
              position:absolute;
                         }
@@ -124,16 +123,17 @@ body{
 
                           
 
-                               hr{
-                                border-top:1px soldi #3a3a3a;
-                                width:100%;
-                                margin:5px 0;
-                                }
-                                #center-about{
-                                    width:33%;
-                                    margin:0 auto;
-                                     }
-                               
+                              
+                        #center-about{
+                        width:33%;
+                         margin:0 auto;
+                                        }
+                                    
+                         hr{
+                        border-top:1px solid #3a3a3a;
+                        width:100%;
+                        margin: 5px 0;
+                                    }
                               
                                 .left-about-heading{
                                 width: 60%;
@@ -159,28 +159,30 @@ body{
                                  
                                    
                                    
-                                    #welcome{
-                                        text-align:center;
-                                        margin:20px 0;
-                                        font-size:280%;
-                                    }
+                             #welcome{
+                            text-align:center;
+                            margin:20px 0;
+                            font-size:280%;
+                            }
 
-                                    #circle-container{
-                                        width:300px;
-                                        height:300px;
-                                        padding:30px;
-                                        border-style:solid;
-                                        border-color:#ccc;
-                                        border-width:1px;
-                                        border-radius:50%;
-                                        margin: 0 auto;
-                                        }
+                           
+                                      
+                         #circle-container{
+                            width:300px;
+                             height:300px;
+                            padding:30px;
+                            border-style:solid;
+                             border-color:#ccc;
+                            border-width:1px;
+                            border-radius:50%;
+                            margin: 0 auto;
+                            }
 
-                                        #circle-cover-bg{
-                                        background:url("../images/ethos-center-image.jpeg")no-repeat center center;
-                                        height:100%;
-                                        border-radius:50%;
-                                        }
+                           #circle-cover-bg{
+                            background:url('../images/ethos-center-image.jpeg')no-repeat center center;
+                            height:100%;
+                            border-radius:50%;
+                            }
                                    
                                
 
