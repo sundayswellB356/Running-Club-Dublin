@@ -13,11 +13,11 @@ body{
     color:#3a3a3a;
     }
 
-    h1,h2{
-        font-family:Lato,sans-serif;
+        h1,h2{
+        font-family:Oswald,sans-serif;
         text-transform:uppercase;
         letter-spacing:4px;
-        
+        color:#252525;
         }
 
          #logo{
@@ -35,67 +35,73 @@ body{
          }
                 
         #menu li{
-        float:right;
+        float: right;
         list-style-type:none;
         margin-right:30px;
         }
 
-    #menu a{
-    text-decoration:none;
-     color:inherit;
+         #menu a{
+        text-decoration:none;
+         color:inherit;
          }
-     #menu a:hover{
-     border-bottom:1px solid #3a3a3a;
+     
+         #menu a:hover{
+        border-bottom:1px solid #3a3a3a;
         }
 
         .acitve{
         border-bottom:1px solid #3a3a3a;
         }
+        #hero-outer{
+        height:600px;
+        width:100%;
+        overflow:hidden;
 
-     #hero-image{
-     height:600px;
-     width:100%;
-     background:url("../images/hero-image .webp")no-repeat center center;
-     animation-name:hero-zoom;
-     animation-duration:5s;
-     animation-fill-mode:forwards;
+        position:relative;
+        }
+     
+        #cover-text,#cover-text h2{
+        color:#fff;
+        }
+   
+        #hero-image{
+        height:600px;
+        width:100%;
+        background:url("../images/hero-image .webp")no-repeat center center;
+        animation-name:hero-zoom;
+         animation-duration:5s;
+         animation-fill-mode:forwards;
         }
 
 
                     
-            #hero-outer{
-            height:600px;
-            width:100%;
-            overflow:hidden;
-
-            position:relative;
+           
+      /*creates the level of zoom for hero image*/
+     @keyframes hero-zoom{
+        from{
+        transform:scale(1);
+        }
+         to{
+         transform:scale(1.1);
             }
-                        /*creates the level of zoom for hero image*/
-                        @keyframes hero-zoom{
-                            from{
-                                transform:scale(1);
-                            }
-                        to{
-                            transform:scale(1.1);
-                        }
-                        }
+            }
 
-                        #cover-text{
-                            font-size:130%;
-                            font-family:Oswald,sans-serif;
-                            text-transform:uppercase;
-                            letter-spacing:4px;
-                            width:300px;
-                            height:200px;
+            #cover-text{
+            font-size:130%;
+            font-family:Oswald,sans-serif;
+            text-transform:uppercase;
+            letter-spacing:4px;
+            width:300px;
+            height:200px;
                             
-                            padding-top:40px;
-                            padding-left:10px;
-                            background-color: rgba(241,109,107,.7);
+             padding-top:40px;
+             padding-left:10px;
+             background-color: rgba(241,109,107,.7);
                             
-                            bottom:30px;
-                            right:150px;
+             bottom:30px;
+            right:150px;
 
-                            position:absolute;
+             position:absolute;
                         }
 
                         /* club ethos */
@@ -116,18 +122,20 @@ body{
                             float:right;
                             }
 
-                            #center-about{
-                                width:33%;
-                                margin:0 auto;
-                                 }
+                          
 
                                hr{
                                 border-top:1px soldi #3a3a3a;
                                 width:100%;
                                 margin:5px 0;
                                 }
+                                #center-about{
+                                    width:33%;
+                                    margin:0 auto;
+                                     }
                                
-                              .left-about-heading{
+                              
+                                .left-about-heading{
                                 width: 60%;
                                 float:left;
                                 line-height:20px;
@@ -147,18 +155,32 @@ body{
                                     .right-about-heading p{
                                         text-align:right;
                                     }
+                                   
+                                 
+                                   
+                                   
                                     #welcome{
                                         text-align:center;
                                         margin:20px 0;
                                         font-size:280%;
                                     }
                                    
-                                    
-                                    #circle-cover-bg{
-                                        background:url("../images/ethos-center-image.jpeg")no-repeat center center;
-                                        height:100%;
-                                        border-radius:50%;
-                                        }
+                                 circle-contianer{
+                                    width:300px;
+                                    height:300px;
+                                    padding:30px;
+                                    border-style:solid;
+                                    border-color:#ccc;
+                                    border-width:1px;
+                                    border-radius:50%;
+                                    margin: 0 auto;
+                                 }
+
+                                    circle-cover-bg{ 
+                                    background:url("../images/hero-image .webp")no-repeat center center;
+                                    height:100%;
+                                    border-radius:50%;
+                                    }
 
                               
 
