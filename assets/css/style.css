@@ -17,59 +17,59 @@ body{
         font-family:Lato,sans-serif;
         text-transform:uppercase;
         letter-spacing:4px;
-        color:#252525;
+        
         }
 
-        #logo{
-            float:left;
-            font-size:280%;
-            margin-left:30px;
-            }
+         #logo{
+        float:left;
+        font-size:280%;
+        margin-left:30px;
+         }
 
-            #menu{
-                font-size:110%;
-                letter-spacing:4px;
-                }
-                #menu,#logo{
-                line-height:75px;
-                }
+        #menu{
+        font-size:110%;
+        letter-spacing:4px;
+        }
+        #menu,#logo{
+        line-height:75px;
+         }
                 
-                #menu li{
-                float:right;
-                list-style-type:none;
-                margin-right:30px;
-                }
+        #menu li{
+        float:right;
+        list-style-type:none;
+        margin-right:30px;
+        }
 
-                #menu a{
-                    text-decoration:none;
-                    color:inherit;
-                    }
-                    #menu a:hover{
-                    border-bottom:1px solid #3a3a3a;
-                    }
+    #menu a{
+    text-decoration:none;
+     color:inherit;
+         }
+     #menu a:hover{
+     border-bottom:1px solid #3a3a3a;
+        }
 
-                    .acitve{
-                    border-bottom:1px solid #3a3a3a;
-                    }
+        .acitve{
+        border-bottom:1px solid #3a3a3a;
+        }
 
-                    #hero-image{
-                        height:600px;
-                        width:100%;
-                        background:url("../images/hero-image .webp")no-repeat center center;
-                        animation-name:hero-zoom;
-                        animation-duration:5s;
-                        animation-fill-mode:forwards;
-                        }
+     #hero-image{
+     height:600px;
+     width:100%;
+     background:url("../images/hero-image .webp")no-repeat center center;
+     animation-name:hero-zoom;
+     animation-duration:5s;
+     animation-fill-mode:forwards;
+        }
 
 
                     
-                    #hero-outer{
-                        height:600px;
-                        width:100%;
-                        overflow:hidden;
+            #hero-outer{
+            height:600px;
+            width:100%;
+            overflow:hidden;
 
-                        position:relative;
-                        }
+            position:relative;
+            }
                         /*creates the level of zoom for hero image*/
                         @keyframes hero-zoom{
                             from{
@@ -104,7 +104,7 @@ body{
                         height:600px;
                         }
 
-                        #left-about{
+                         #left-about{
                         padding-top:30px;
                         width:33%;
                         float:left;
@@ -147,7 +147,18 @@ body{
                                     .right-about-heading p{
                                         text-align:right;
                                     }
-
+                                    #welcome{
+                                        text-align:center;
+                                        margin:20px 0;
+                                        font-size:280%;
+                                    }
+                                   
+                                    
+                                    #circle-cover-bg{
+                                        background:url("../images/ethos-center-image.jpeg")no-repeat center center;
+                                        height:100%;
+                                        border-radius:50%;
+                                        }
 
                               
 
