@@ -221,8 +221,12 @@ hr {
                        }
 
                        .social-networks{
-                        text-align:center;
-                       }
+                        display:flex;
+                        justify-content:space-around ;
+                        align-items: center;
+                        list-style: none;
+                        }
+
 
                        .social-networks li{
                         display:inline;
