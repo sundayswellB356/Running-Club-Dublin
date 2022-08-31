@@ -216,26 +216,21 @@ hr {
                              }
 
                    
-                       footer{
+                     footer{
                         height:150px;
-                       }
+                     }
 
-                       .social-networks{
-                        display:flex;
-                        justify-content:space-around ;
-                        align-items: center;
-                        list-style: none;
-                        }
+                     .social-networks{
+                        text-align:center;
+                     }
 
-
-                       .social-networks li{
+                     .social-networks>li{
                         display:inline;
-                       }
+                     }
 
-                       .social-networks i{
+                     .social-networks i{
                         font-size:160%;
                         margin:1%;
                         padding:5%;
                         color:#3a3a3a;
-                    }
-
+                     }
