@@ -272,6 +272,13 @@ hr {
                                 padding:0;
                             }
 
+                           #times > div{
+                            width:100%;
+                            clear:both;
+                            height:150%;
+                            padding:0;
+                            }
+                           
                             hr{
                                 display:none;
                             }
