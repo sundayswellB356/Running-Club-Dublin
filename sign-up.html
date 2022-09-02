@@ -12,7 +12,7 @@
   <nav>
     <ul id="menu">
     <li>
-    <a href="sign-up"class="active">Sign-Up</a>  
+      <a href="signup.html">Sign-Up</a>
     </li>
     <li>
       <a href="gallery.html">Gallery</a>   
@@ -28,7 +28,32 @@
     <h2 id="logo">Love Running</h2>
     </a>
   </header>
- <section>
+ <section class="form-section">
+  <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+    <h2>Let's get you signed up!</h2>
+    <label for="fname">First Name</label>
+    <input id="fname" name="first_name" type="text" required>
+    
+    <label for="lname">Last Name</label>
+    <input id="lname" name="last_name" type="text" required>
+    
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email_address" required>
+    
+    <label for="road">Road</label>
+    <input type="radio" id="road" name="running_preference" value="road" required>
+    <label for="trail">Trail</label>
+    <input type="radio" id="trail" name="running_preference" value="trail" required>
+    <label for="both">Both</label>
+    <input type="radio" id="both" name="running_preference" value="both" required>
+    
+    <input class="join-button" type="submit" value="Let's Run!">
+</form>
+</section>
+ 
+ 
+ 
+ 
   <img src="assets/images/athletes.jpg"alt="two athletes running together">
   <img src="assets/images/runner1.jpg"alt="solo female runner">
   <img src="assets/images/girls.jpg" alt="at charity paint running festival">
@@ -39,7 +64,10 @@
   <img src="assets/images/runner3.jpg"alt="solo male runner jogging on a beach">
   <img src="assets/css/running_gang.jpg"alt="large group of runners taking part in a marathon on a rainy day">
   
-</section>
+
+  
+
+
 
 
   <footer>
